@@ -1,5 +1,3 @@
-// overloading Equality Operator
-#include <iostream>
 #include <iostream>
 #include <vector>
 #include <algorithm>
