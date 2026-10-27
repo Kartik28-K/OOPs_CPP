@@ -38,4 +38,12 @@ int main(){
     //base_pointer->display(); // prints display from base class in Case 1
     base_pointer->display(); // prints display from Derived class in Case 2 due to vitual function
 
+    Base base_obj;
+    base_pointer=&base_obj;
+    base_pointer->display(); // printt display from Base class because base pointer has now Base class object
+
+    // vrtual function will run according to the need
+    // if base pointer has base class data it will display from Base
+    // if base pointer has derived class data it will display from derived class
+
 }
